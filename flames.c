@@ -56,7 +56,7 @@ void main()
   if(unm == 2 ||unm== 4 || unm==7 ||unm==9 )
    printf("%s and %s FLAMES as ENEMY \n",s1,s2);
   else if( unm == 3 ||unm==5 || unm==14 ||unm==16 || unm==18 )
-    printf("%s and %s FLAMES as FRIEND\n",s1,s2);
+    printf("%s and %s FLAMES as FRIENDS\n",s1,s2);
   else if( unm == 8 || unm==12 || unm==17)
     printf("%s and %s FLAMES as AFFECTION\n ",s1,s2);
   else if( unm == 10)
@@ -115,7 +115,7 @@ void main()
   switch(ch)
   {
     case 'f':
-      printf("FRIEND\n");
+      printf("FRIENDS\n");
       break;
 
 
