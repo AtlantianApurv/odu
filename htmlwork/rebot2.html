@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<style>
+.robot_class{ 
+				position:relative;
+				left:300px;
+			
+			}
+.head_class{
+			  position:relative;
+		left:70px;
+		background:radial-gradient(circle, white 15% ,transparent 40%);
+		background-size: 75px 150px;
+		height:150px;
+		width:150px;
+		background-color:#000; 
+		border-radius: 60px 60px 10px 10px; 
+		border-top:40px double red;
+		border-bottom:40px double red;
+			}
+
+.tummy_class{
+			position:relative;
+			background-color: red; 
+			
+			height:0px;
+			width:150px;
+			left=-50px;
+			border-top:300px solid ;
+			border-left:75px solid transparent;
+			border-right:75px solid transparent;
+			
+			}
+.left_hand{
+			
+			background-color: blue;
+				height=75px;
+				width=25px;
+			 
+				
+				
+			}
+.right_hand{
+			
+			background-color: blue;
+			 transform: rotate(20deg);
+				height=75px;
+				width=25px;
+				position:relative;
+				
+			
+			}
+.foot_class{
+			position:relative;
+			left:70px;
+			
+			background-size: 75px 150px;
+			border:15px;
+			height:150px;
+			width:150px;
+			background-color:#000; 
+			
+			
+			border-radius: 120px 120px 10px 10px; 
+			border-bottom:40px double red;
+			border-top:40px double red;
+			transform: rotate(180deg);
+			}
+			
+			
+
+</style>
+
+
+
+
+
+
+<h1>Hello Mr. Robot</h1>
+<div id="robot" class="robot_class">
+	<div id="antena" class="antena_class"> </div>
+	<div id="head" class="head_class"></div>
+	<div id="tummy" class ="tummy_class">
+		<div id="left" class ="left_hand"></div>
+		<div id="right" class ="right_hand"></div>
+	</div>
+	<div id="foot" class="foot_class"></div>
+</div>
+</html>
